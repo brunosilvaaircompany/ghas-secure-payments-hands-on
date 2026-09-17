@@ -18,7 +18,7 @@ jobs:
       github.event_name == 'pull_request' &&
       github.event.pull_request.title == 'fix: update vulnerable payment dependency' &&
       (github.event.action != 'closed' || github.event.pull_request.merged == true)
-    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@2bed354b84a2633bc05cb5d6c8658bfa47345445
+    uses: skills/exercise-toolkit/.github/workflows/find-exercise-issue.yml@904f29a5aa21fb6ccd0ecbbd5e7b668fd92b9ff1
 
   check-participant-pr:
     if: |
