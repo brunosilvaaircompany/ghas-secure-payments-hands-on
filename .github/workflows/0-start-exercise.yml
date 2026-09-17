@@ -29,8 +29,8 @@ jobs:
       ISSUE_NUMBER: ${{ needs.start-exercise.outputs.issue-number }}
       TOOLKIT_REF: 2bed354b84a2633bc05cb5d6c8658bfa47345445
     steps:
-      - uses: actions/checkout@v4.2.2
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/checkout@v7.0.1
         with:
           repository: skills/exercise-toolkit
           path: exercise-toolkit
