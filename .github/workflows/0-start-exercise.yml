@@ -16,7 +16,7 @@ jobs:
     uses: skills/exercise-toolkit/.github/workflows/start-exercise.yml@2bed354b84a2633bc05cb5d6c8658bfa47345445
     with:
       exercise-title: "GHAS Secure Payments Hands-on"
-      intro-message: |
+      intro-message: >-
         Crie a branch ghas-baseline, execute ./mvnw test e faça o commit
         "chore: establish GHAS baseline". Depois siga as quatro fases.
 
